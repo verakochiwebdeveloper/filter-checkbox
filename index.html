@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="filter">
+      <label>
+        <input type="checkbox" id="checkbox1">
+        Категория 1
+      </label>
+      <label>
+        <input type="checkbox" id="checkbox2">
+        Категория 2
+      </label>
+      <label>
+        <input type="checkbox" id="checkbox3">
+        Категория 3
+      </label>
+    </div>
+    
+    <div class="cards">
+      <div class="card" data-category1="true" data-category2="false" data-category3="false">
+        <h2>Товар 1</h2>
+        <p>Описание товара 1</p>
+      </div>
+      
+      <div class="card" data-category1="false" data-category2="true" data-category3="false">
+        <h2>Товар 2</h2>
+        <p>Описание товара 2</p>
+      </div>
+      
+      <div class="card" data-category1="false" data-category2="false" data-category3="true">
+        <h2>Товар 3</h2>
+        <p>Описание товара 3</p>
+      </div>
+      
+      <div class="card" data-category1="false" data-category2="false" data-category3="false">
+        <h2>Товар 4</h2>
+        <p>Описание товара 4</p>
+      </div>
+    </div>
+    
+    
+    <script src="main.js"></script>
+  </body>
+</html>
